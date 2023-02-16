@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 50vh;
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    background-color: black;
+    margin: 32px;
+    padding: 12px;
+    color: white;
+}
+
+.aluno{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+}
+
+.aluno__title{
+    text-align: center;
+}
+
+.aluno__nota{
+    width: 100%;
+    text-align: center;
+}
+
+.vermelho{
+    background-color: red;
+}
+
+.azul{
+    background-color: blue;
+}
